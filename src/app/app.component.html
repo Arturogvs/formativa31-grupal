@@ -1,0 +1,69 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Colegio Everis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="profesores">Profesores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="alumnos">Alumnos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="administrativos">Administrativos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container-lg">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="mt-5">
+  <nav class="navbar navbar-light bg-light">
+    <div class="row container-fluid">
+      <div class="col-md-3">
+          <h6>Redes Sociales:</h6>
+          <ul>
+              <li><a href="wwww.facebook.com">Facebook</a></li>
+              <li><a href="wwww.instagram.com">Instagram</a></li>
+              <li><a href="wwww.twitter.com">Twitter</a></li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Links:</h6>
+        <ul>
+          <li><a href="https://www.mineduc.cl/">Minsterio de educación</a></li>
+          <li><a href="https://classroom.google.com/u/0/h?hl=es">Class Room</a></li>
+          <li><a href="https://zoom.us/">Zoom</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Ubicación:</h6>
+        <ul>
+          <li>Av. Limones 32, Santiago</li>
+          <li>Av. Playa Ancha, Valparaiso</li>
+          <li>Calle 45, Temuco</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Contacto:</h6>
+        <ul>
+          <li>contacto@colegioeveris.cl</li>
+          <li>notas@colegioeveris.cl</li>
+          <li>denuncia@colegioeveris.cl</li>
+        </ul>
+    </div>
+    </div>
+  </nav>
+</footer>
